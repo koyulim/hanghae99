@@ -1,18 +1,22 @@
-## Getting Started
+# 99클럽 코테 스터디 1일차 TIL + n^2 배열 자르기
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### n^2 배열 자르기
 
-## Folder Structure
+#### 문제 요지
+- 2차원 배열을 1차원 배열로 만들어서 일정 범위의 인덱스 값을 출력
+- 배열의 최대 값이 10^7 까지 이기 때문에 시간복잡도가 적게 코딩하는 것이 핵심
 
-The workspace contains two folders by default, where:
+#### 문제 풀이
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+##### 1차 시도
+- 이중 for 문을 이용하여 순차적으로 배열에 값을 넣고 일정 범위의 값을 출력하는 것으로 시도
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+##### 문제점
+- 테스트 1, 2 케이스는 성공하였으나 채점 시 시간 복잡도에 걸림
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+##### 해결방안
+- 따라서 이중 for문을 사용하지 않는 새로운 알고리즘 방식 고안
+- 일정 범위의 값을 2차원 배열의 크기의 값으로 나눈 몫과 나머지 값을 이용
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<br>
+#99클럽 #코딩테스트준비 #개발자취업 #항해99 #TIL
