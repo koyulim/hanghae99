@@ -5,7 +5,7 @@
 ![problem](https://github.com/user-attachments/assets/79f0bf81-bd72-4eef-b89a-f6742d350654)
 
 #### 입출력 예시1
-![ex1](https://github.com/user-attachments/assets/2c1f2ddb-d674-4a4e-b139-95e14c2d6854)
+![ex1](https://github.com/user-attachments/assets/35915138-b038-4302-8fa1-be501364ee74)
 
 #### 입출력 예시2
 ![ex2](https://github.com/user-attachments/assets/7798f527-9aa6-4811-96b5-063c7ac01225)
