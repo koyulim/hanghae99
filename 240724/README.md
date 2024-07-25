@@ -1,9 +1,8 @@
 # 99클럽 코테 스터디 3일차 TIL + 문자열 내 마음대로 정렬하기
 
-
 ### 문자열 내 마음대로 정렬하기
 
-
+![240724](https://github.com/user-attachments/assets/b1431faa-eb0b-40d9-824e-22305b3228c7)
 
 #### 문제 요지
 - index 값이 주어진 n 번째 값들 기준으로 배열 정렬
