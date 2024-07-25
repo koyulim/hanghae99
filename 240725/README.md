@@ -2,6 +2,7 @@
 
 ### JadenCase 문자열 만들기
 
+![240725](https://github.com/user-attachments/assets/68436e99-c046-40ba-8015-89c373660c7a)
 
 
 #### 문제 요지
