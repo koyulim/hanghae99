@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         int[] result = solution(3, 2, 5);
+        
         for (int num : result) {
             System.out.print(num + " ");
         }

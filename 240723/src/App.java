@@ -2,19 +2,21 @@ import java.util.Arrays;
 import java.util.Comparator;
 public class App {
     public static void main(String[] args) throws Exception {
+        long[] case1 = solution(2, 5);
+        long[] case2 = solution(4, 3);
+        long[] case3 = solution(-4, 2);
 
-    }
-    class Solution {
-        public String[] solution(String[] strings, int n) {
-            Arrays.sort(strings, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                int index = n;
-                while(o1.charAt(index) != o2.charAt(index))index++;
-                return o1.charAt(index) - o2.charAt(index);
-            }
-        });
-            return strings;
+        for (long num : case1) {
+            System.out.print(num + " ");
         }
     }
+    
+    public static long[] solution(int x, int n) {
+        long[] answer = new long[n];
+        for (int i = 0; i < n ; i++){
+            answer[i] = (long) x * (i + 1);
+        }
+        return answer;
+    }
+    
 }

@@ -3,11 +3,10 @@ import java.util.Comparator;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       
         String[] case1 = {"sun", "bed", "car"};
         String[] case2 = {"abce", "abcd", "cdx"};
-
         String[] result = solution(case1, 1);
+        
         for (String num : result) {
             System.out.print(num + " ");
         }
