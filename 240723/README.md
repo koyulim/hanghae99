@@ -4,7 +4,6 @@
 
 ![240723](https://github.com/user-attachments/assets/7c1d72cb-2528-48ae-9171-33dedea164ce)
 
-
 #### 문제 요지
 - x부터 시작해 x씩 증가하는 값(x * i)을 최대 n의 크기만큼 배열에 넣기
 - x(-10000000 <= x <=10000000)와 n(n <= 1000)의 범위 체크
