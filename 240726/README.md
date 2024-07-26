@@ -11,15 +11,10 @@
 #### 문제 풀이
 ##### solution 1 - java startsWith 메서드 사용
 - 주어진 배열을 sort로 정렬
-- 배열을 for문을 통해서 앞의 있는 값이 접두어로 시작하는지 확인
-
-##### solution 2 - HashMap containsKey 메서드 사용
-- 주어진 배열을 hashMap에 데이터 넣기
-- containsKey메서드를 이용해서 가지고 배열에 있는 접두어와 같은지 비교
+- for문을 통해서 앞의 있는 값이 접두어로 시작하는지 확인
 
 ##### 1차 시도
 - 처음에 조건절로 contains 메서드 사용
-
 
 ##### 문제점
 - contains 메서드를 사용하니까 접두어가 아닌 문자열이 포함 되어져 있는지 여부를 모두 체크
@@ -27,6 +22,11 @@
 ##### 해결방안
 - 조건절에 startsWith 메서드로 변경
 
+
+#### 문제 풀이
+##### solution 2 - HashMap containsKey 메서드 사용
+- 주어진 배열을 hashMap에 데이터 넣기
+- for문을 통해서 map의 키값과 배열에 있는 접두어와 같은지 비교
 
 <br>
 
