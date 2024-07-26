@@ -8,8 +8,7 @@
 - 리스트 내 배열의 값이 다른 값의 접두어로 있는지 확인
 - 접두어 : 특정 값의 시작 값
 
-#### 문제 풀이
-##### solution 1 - java startsWith 메서드 사용
+#### 문제 풀이 1 - java startsWith 메서드 사용
 - 주어진 배열을 sort로 정렬
 - for문을 통해서 앞의 있는 값이 접두어로 시작하는지 확인
 
@@ -23,8 +22,7 @@
 - 조건절에 startsWith 메서드로 변경
 
 
-#### 문제 풀이
-##### solution 2 - HashMap containsKey 메서드 사용
+#### 문제 풀이 2 - HashMap containsKey 메서드 사용
 - 주어진 배열을 hashMap에 데이터 넣기
 - for문을 통해서 map의 키값과 배열에 있는 접두어와 같은지 비교
 
