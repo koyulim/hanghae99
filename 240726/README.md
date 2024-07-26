@@ -21,6 +21,7 @@
 ##### 해결방안
 - 조건절에 startsWith 메서드로 변경
 
+<br>
 
 #### 문제 풀이 2 - HashMap containsKey 메서드 사용
 - 주어진 배열을 hashMap에 데이터 넣기
