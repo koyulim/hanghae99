@@ -2,7 +2,15 @@
 
 ### 의상
 
+![240727](https://github.com/user-attachments/assets/0fab891e-7092-4f70-829e-ee6bbb7545c1)
 
+#### 입출력 예시1
+
+![ex1](https://github.com/user-attachments/assets/6a035c82-e70d-4ece-8bd1-0de307151b79)
+
+#### 입출력 예시2
+
+![ex2](https://github.com/user-attachments/assets/4939253a-5042-4231-858f-8ea3ce22d4c0)
 
 #### 문제 요지
 - 2차원 배열에 담긴 여러 종류의 여러 옷들이 있을 때 겹치지 않고 매칭될 경우의 수 
