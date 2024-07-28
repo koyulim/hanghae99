@@ -2,6 +2,11 @@
 
 ### 하노이의 탑
 
+![240728](https://github.com/user-attachments/assets/278a55bc-ee24-4878-b9a7-c9b93bee0db7)
+
+#### 입출력 예시1
+
+![ex1](https://github.com/user-attachments/assets/111db8ea-50ad-49dd-a401-f06298252acc)
 
 
 #### 문제 요지
@@ -30,6 +35,9 @@
 
 ### 재귀법
 - 하나의 함수에서 자신을 다시 호출하여 작업을 수행하는 방식
+
+![flow](https://github.com/user-attachments/assets/ac9e4c55-48eb-4f9b-94be-f59e3f6a5886)
+
 
 ### 알고리즘
 - (n-1)개의 원판을 보조 기둥을 이용해 목적지 기둥으로 이동
