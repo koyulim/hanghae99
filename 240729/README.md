@@ -27,6 +27,8 @@
 - 스택(Stack) : 후입선출, 마지막에 넣은 값을 먼저 출력
 - 큐(Queue) : 선입선출, 먼저 넣은 값을 먼저 출력
 
+<img width="451" alt="Stack_Queue" src="https://github.com/user-attachments/assets/a11c8238-f415-46b2-8b04-73a435cceefd">
+
 #### 큐(Queue) 선언
 - new LinkedList<>()
 - new PriorityQueue<>() : 낮은 우선순위로 값 정렬
