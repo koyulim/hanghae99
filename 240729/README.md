@@ -13,34 +13,37 @@
 ![ex2](https://github.com/user-attachments/assets/1e784f7a-4bcd-4546-b5bf-d7019a36b74b)
 
 #### 문제 요지
-- 
+- 같은 기간에 기능을 완료한 팀의 개수를 리스트로 출력
+- 프로그래머스 팀의 작업 가능한 계산 일자를 큐에 값 삽입
+- 반복문을 돌면서 큐의 값을 하나씩 빼면서 비교
 
-#### 문제풀이
-- 
-  
-  - 
-
-##### 문제점
-- 규칙은 찾았으나 로직으로 녹이는 부분에서 갈피를 못잡음
-
-##### 해결방안
-- 재귀법에 대해 공부하여 반영함
 
 
 <br>
 
 ## 공부 내용 정리
 
-### 재귀법
-- 하나의 함수에서 자신을 다시 호출하여 작업을 수행하는 방식
+### 스택(Stack)과 큐(Queue)
+- 스택(Stack) : 후입선출, 마지막에 넣은 값을 먼저 출력
+- 큐(Queue) : 선입선출, 먼저 넣은 값을 먼저 출력
 
-![flow](https://github.com/user-attachments/assets/ac9e4c55-48eb-4f9b-94be-f59e3f6a5886)
+#### 큐(Queue) 선언
+- new LinkedList<>()
+- new PriorityQueue<>() : 낮은 우선순위로 값 정렬
+- new PriorityQueue<>(Collections.reverseOrder()) : 높은 우선순위로 값 정렬
 
+#### 큐(Queue) 메서드
+- add() : 맨뒤에 값 삽입, 실패 시 IllegalStateException 발생
+- offer() : 맨뒤에 값 삽입, 실패 시 false 반환
+- remove() : 맨 앞에 있는 값 반환 후 삭제, 실패 시  NoSuchElementException 발생
+- poll() : 맨 앞에 있는 값 반환 후 삭제, 실패 시 null 반환
+- element() : 맨 앞에 있는 값 반환, 실패 시 NoSuchElementException 발생
+- peek() : value / 공백이면 null 반환
+- clear() : 값 초기화, 반환 값x
+- size() : 사이즈 반환
+- contains() : 값 존재하는지 여부 체크(true/false)
+- isEmpty() : 공백인지 여부 체크(true/false)
 
-### 알고리즘
-- (n-1)개의 원판을 보조 기둥을 이용해 목적지 기둥으로 이동
-- 가장 큰 원판을 출발 기둥에서 목적지 기둥으로 이동
-- 보조 기둥에 있는 (n-1)개의 원판을 목적지 기둥으로 이동
 
 
 <br>
