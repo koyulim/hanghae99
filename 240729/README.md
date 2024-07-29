@@ -2,15 +2,15 @@
 
 ### 기능 개발
 
-
-
-#### 입출력 예시1
-
-
+![240729](https://github.com/user-attachments/assets/99128ebd-5406-4ec3-bd26-983d5aa876d9)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/302fefd0-ef56-4b33-b4af-81dd68067e66)
 
+#### 입출력 예시1
+
+![ex2](https://github.com/user-attachments/assets/1e784f7a-4bcd-4546-b5bf-d7019a36b74b)
 
 #### 문제 요지
 - 
