@@ -1,12 +1,12 @@
-# 99클럽 코테 스터디 8일차 TIL + 기능 개발
+# 99클럽 코테 스터디 9일차 TIL + 더 맵게
 
-### 기능 개발
+### 더 맵게
 
-
+![240730](https://github.com/user-attachments/assets/72d1448a-c7af-474f-9296-4f559cb3464d)
 
 #### 입출력 예시1
 
-
+![ex1](https://github.com/user-attachments/assets/ad1a22b8-3943-4efa-bb5e-e9c745b9ced2)
 
 #### 문제 요지
 - 큐에서 가장 작은수와 두번째로 작은수 추출 후 삭제
@@ -26,6 +26,10 @@
 ### 완전이진트리
 - 마지막 레벨을 제외한 모든 노드가 채워져있어야함
 - 모든 노드들은 왼쪽부터 채워져있어야 함
+
+![binaryTree](https://github.com/user-attachments/assets/b7b9a5e3-588d-4969-af8c-9afb290f7256)
+
+참고자료 : https://st-lab.tistory.com/205
 
 #### 큐(Queue) 선언
 - new LinkedList<>()
