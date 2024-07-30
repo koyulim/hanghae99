@@ -2,20 +2,16 @@
 
 ### 기능 개발
 
-![240729](https://github.com/user-attachments/assets/99128ebd-5406-4ec3-bd26-983d5aa876d9)
+
 
 #### 입출력 예시1
 
-![ex1](https://github.com/user-attachments/assets/302fefd0-ef56-4b33-b4af-81dd68067e66)
 
-#### 입출력 예시2
-
-![ex2](https://github.com/user-attachments/assets/1e784f7a-4bcd-4546-b5bf-d7019a36b74b)
 
 #### 문제 요지
-- 같은 기간에 기능을 완료한 팀의 개수를 리스트로 출력
-- 프로그래머스 팀의 작업 가능한 계산 일자를 큐에 값 삽입
-- 반복문을 돌면서 큐의 값을 하나씩 비교하면서 제거
+- 큐에서 가장 작은수와 두번째로 작은수 추출 후 삭제
+- 주어진 연산을 이용하여 계산 결과를 큐안에 삽입
+- 위 두 방법을 이용하여 큐안에 수가 K 이상일 때까지 반복
 
 
 
@@ -23,11 +19,13 @@
 
 ## 공부 내용 정리
 
-### 스택(Stack)과 큐(Queue)
-- 스택(Stack) : 후입선출, 마지막에 넣은 값을 먼저 출력
-- 큐(Queue) : 선입선출, 먼저 넣은 값을 먼저 출력
+### Heep 자료구조
+- 우선순위 큐가 Heep 자료구조를 이용하여 구현됨
+- 최솟값 또는 최댓값을 빠르게 찾아내기 위해 완전이진트리 형태로 만들어진 자료구조
 
-<img width="451" alt="Stack_Queue" src="https://github.com/user-attachments/assets/a11c8238-f415-46b2-8b04-73a435cceefd">
+### 완전이진트리
+- 마지막 레벨을 제외한 모든 노드가 채워져있어야함
+- 모든 노드들은 왼쪽부터 채워져있어야 함
 
 #### 큐(Queue) 선언
 - new LinkedList<>()
