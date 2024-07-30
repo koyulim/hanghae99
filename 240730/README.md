@@ -31,12 +31,14 @@
 
 참고자료 : https://st-lab.tistory.com/205
 
-#### 큐(Queue) 선언
+<br>
+
+### 큐(Queue) 선언
 - new LinkedList<>()
 - new PriorityQueue<>() : 낮은 우선순위로 값 정렬
 - new PriorityQueue<>(Collections.reverseOrder()) : 높은 우선순위로 값 정렬
 
-#### 큐(Queue) 메서드
+### 큐(Queue) 메서드
 - add() : 맨뒤에 값 삽입, 실패 시 IllegalStateException 발생
 - offer() : 맨뒤에 값 삽입, 실패 시 false 반환
 - remove() : 맨 앞에 있는 값 반환 후 삭제, 실패 시  NoSuchElementException 발생
