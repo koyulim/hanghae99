@@ -24,33 +24,38 @@ public class App {
                 min.offer(Integer.parseInt(indexVal[1]));
                 max.offer(Integer.parseInt(indexVal[1]));                
             } else if (!min.isEmpty() && indexVal[1].equals("-1")){
-                min.poll();
                 
-                int[] temp = new int[min.size()];
-                
-                for(int j = 0; j < temp.length; j++){
-                    temp[j] = max.poll();
-                }
-                max.clear();
-                
-                for(int j = 0; j < temp.length; j++){
-                    max.offer(temp[j]);
-                }
-                
+                // solution 1
+                // min.poll();
+                // int[] temp = new int[min.size()];
+                // for(int j = 0; j < temp.length; j++){
+                //     temp[j] = max.poll();
+                // }
+                // max.clear();
+                // for(int j = 0; j < temp.length; j++){
+                //     max.offer(temp[j]);
+                // }
+
+                // solution 2
+                int minVal = min.poll();
+                max.remove(minVal);
                 
             } else if (!max.isEmpty() && indexVal[1].equals("1")){
-                max.poll();
-                
-                int[] temp = new int[max.size()];
-                
-                for(int j = 0; j < temp.length; j++){
-                    temp[j] = min.poll();
-                }
-                min.clear();
-                
-                for(int j = 0; j < temp.length; j++){
-                    min.offer(temp[j]);
-                }
+
+                // solution 1
+                // max.poll();
+                // int[] temp = new int[max.size()];
+                // for(int j = 0; j < temp.length; j++){
+                //     temp[j] = min.poll();
+                // }
+                // min.clear();
+                // for(int j = 0; j < temp.length; j++){
+                //     min.offer(temp[j]);
+                // }
+
+                // solution 2
+                int maxVal = max.poll();
+                min.remove(maxVal);
             }
             
         }

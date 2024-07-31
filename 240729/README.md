@@ -38,6 +38,7 @@
 - add() : 맨뒤에 값 삽입, 실패 시 IllegalStateException 발생
 - offer() : 맨뒤에 값 삽입, 실패 시 false 반환
 - remove() : 맨 앞에 있는 값 반환 후 삭제, 실패 시  NoSuchElementException 발생
+- remove(value) : 특정 값 반환 후 삭제, 실패 시  NoSuchElementException 발생
 - poll() : 맨 앞에 있는 값 반환 후 삭제, 실패 시 null 반환
 - element() : 맨 앞에 있는 값 반환, 실패 시 NoSuchElementException 발생
 - peek() : value / 공백이면 null 반환
