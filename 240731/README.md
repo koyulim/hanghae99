@@ -2,14 +2,15 @@
 
 ### 이중 우선순위 큐
 
+![240731](https://github.com/user-attachments/assets/b31d617c-ebd2-4e25-9c91-f30d40cabfda)
 
 #### 입출력 예시1
 
-
+![ex1](https://github.com/user-attachments/assets/36b6b9f1-7767-442c-beab-3d8f01ec063e)
 
 #### 입출력 예시2
 
-
+![ex2](https://github.com/user-attachments/assets/89dccf7b-e2ed-49f5-a5c4-3e7a30a256c3)
 
 #### 문제 요지
 - 큐에 주어진 숫자를 삽입하고 최대 최소값을 제거 할 수 있어야함
