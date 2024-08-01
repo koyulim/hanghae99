@@ -2,15 +2,15 @@
 
 ### 카드 뭉치
 
-
+![240801](https://github.com/user-attachments/assets/7a7b0f8d-b698-4a3b-8f6f-f023bf110236)
 
 #### 입출력 예시1
 
-
+![ex1](https://github.com/user-attachments/assets/d29a395b-ead7-4bd1-9ef8-2590e8b93439)
 
 #### 입출력 예시2
 
-
+![ex2](https://github.com/user-attachments/assets/a1e5021a-d594-4fb0-93eb-fa8a190a9ac1)
 
 #### 문제 요지
 - goal 배열에 있는 리스트 값이 cards1, cards2에 있는 배열의 값을 순서대로 뽑은 값인지 체크
