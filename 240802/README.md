@@ -9,7 +9,7 @@
 ![ex1](https://github.com/user-attachments/assets/4aebeec9-f4d4-4042-8fd4-db401950eb3d)
 
 #### 참고자료
-https://en.wikipedia.org/wiki/H-index "위키백과"
+위키백과 : https://en.wikipedia.org/wiki/H-index
 
 <br>
 
