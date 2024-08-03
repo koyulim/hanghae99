@@ -2,10 +2,11 @@
 
 ### 숫자 카드
 
+![240803](https://github.com/user-attachments/assets/b7a463b0-2e84-4790-9d9c-a44b016e4e9f)
 
 #### 입출력 예시1
 
-
+![ex1](https://github.com/user-attachments/assets/f0de9087-7a65-403a-970d-02e3032de699)
 
 #### 문제 요지
 - 첫번 째 배열에 있는 값이 두번 째 배열에 있는 값인지 체크
