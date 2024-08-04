@@ -2,9 +2,11 @@
 
 ### 숫자 카드2
 
+![240804](https://github.com/user-attachments/assets/476d0aa9-1926-4650-9a51-a9b27620faa3)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/76a22ef6-a1bd-48b7-8010-00f2af4a6293)
 
 #### 문제 요지
 - 첫번 째 배열에 있는 값들의 개수를 확인 후 저장
