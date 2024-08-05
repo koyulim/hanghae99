@@ -2,9 +2,9 @@
 
 ### Prefix and Suffix Search
 
+![240805](https://github.com/user-attachments/assets/df750ef9-c797-4924-a907-eead9daf8de8)
 
 #### 번역
-
 #### 745. 접두사 및 접미사 검색
 
 접두사와 접미사로 단어를 검색하는 특수 사전을 디자인합니다.
@@ -25,6 +25,7 @@ WordFilter 클래스를 구현합니다.
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/2622f7ec-50f9-4f0b-a981-c5f3d5c7c687)
 
 #### 번역
 
