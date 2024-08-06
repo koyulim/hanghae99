@@ -2,12 +2,15 @@
 
 ### 모음 사전
 
+![240806](https://github.com/user-attachments/assets/f0537a09-f036-493e-8bf3-ba541f356cbb)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/277f84d0-8c17-42f1-b506-68bc941e8ccb)
 
 #### 입출력 예시2
 
+![ex2](https://github.com/user-attachments/assets/8cdbb7c1-4235-4d26-8f50-1670217135fd)
 
 #### 문제 요지
 - 알파벳 A,E,I,O,U만을 사용하여 길이 5 이하의 만들 수 있는 모든 단어중 주어진 word 단어가 몇번 째 인지 순서를 추출
