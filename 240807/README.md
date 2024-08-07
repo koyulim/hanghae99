@@ -2,12 +2,15 @@
 
 ### 촌수 계산
 
+![240807](https://github.com/user-attachments/assets/2c7b61f5-1b9c-44b4-bc80-237403dd6c71)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/9e516243-d1de-438b-9f65-e51a3a345213)
 
 #### 입출력 예시2
 
+![ex2](https://github.com/user-attachments/assets/07580b9c-b8f1-4b9b-9bda-b7a5bbc3120f)
 
 #### 문제 요지
 - 입력에서 요구한 두 사람의 촌수를 나타내는 정수를 출력
