@@ -2,9 +2,11 @@
 
 ### 단지번호붙이기
 
+![240808](https://github.com/user-attachments/assets/2f45cb33-6f11-4f83-a353-aa6f57c0d6ee)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/a9f8444c-fe03-4202-97ee-ba050ea58b9c)
 
 #### 문제 요지
 - 집이 있는 곳 좌표를 기준으로 좌, 우, 상, 하 를 탐색하여 단지를 추출
