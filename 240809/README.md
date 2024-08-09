@@ -2,8 +2,7 @@
 
 ### 구명보트
 
-
-
+![240809](https://github.com/user-attachments/assets/1ba0506a-7152-4a75-8e2e-fa33c3d9bf59)
 
 #### 문제 요지
 - 구명보트를 가능한 한 적게 사용하여 모든 사람을 구출하는 최적의 방법을 찾는 것
