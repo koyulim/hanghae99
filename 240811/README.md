@@ -2,7 +2,7 @@
 
 ### 피보나치 수
 
-
+![240811](https://github.com/user-attachments/assets/64f1f2e2-e8d7-47c4-93c6-3612acfe034d)
 
 #### 문제 요지
 - F(n) = F(n-1) + F(n-2) 식을 이용하여 n번째까지의 수를 구함
