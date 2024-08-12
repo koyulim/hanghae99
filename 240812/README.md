@@ -2,6 +2,7 @@
 
 ### 멀리 뛰기
 
+![240812](https://github.com/user-attachments/assets/9c64b51a-96be-49e1-8500-574b73ecd1b7)
 
 #### 문제 요지
 - F(n) = F(n-1) + F(n-2) 식을 이용하여 n번째까지의 수를 구함
