@@ -2,13 +2,15 @@
 
 ### 마법의 엘리베이터
 
+![240813](https://github.com/user-attachments/assets/6cb3fa5e-1d6d-4063-aada-f032aa41b60d)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/41f6fe1f-5b11-4fca-a33d-1af94c5da640)
 
 #### 입출력 예시2
 
-
+![ex2](https://github.com/user-attachments/assets/999fced5-f8e7-4753-bdcb-3c507765c13e)
 
 #### 문제 요지
 - 주어진 층수에서 0층으로 내려가는 데 필요한 최소한의 버튼 누름 횟수를 구함
