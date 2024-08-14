@@ -2,14 +2,19 @@
 
 ### 대충 만든 자판
 
+![240814](https://github.com/user-attachments/assets/3abbc566-4430-46b7-9bcd-e76811e8c197)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/058c7dc8-9255-44f6-88c0-6e59a67948cf)
 
 #### 입출력 예시2
 
+![ex2](https://github.com/user-attachments/assets/631f6868-7678-403e-9a5c-eba59f105c96)
 
 #### 입출력 예시3
+
+![ex3](https://github.com/user-attachments/assets/6f86ae40-96c2-4c75-a3ad-06cfc82721b3)
 
 
 #### 문제 요지
