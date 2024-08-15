@@ -1,8 +1,8 @@
 # 99클럽 코테 스터디 24일차 TIL + Evaluate Division
 
 ### Evaluate Division
-![240815](https://github.com/user-attachments/assets/4ab092c5-f580-45f9-b97b-35565ce7babc)
 
+![240815](https://github.com/user-attachments/assets/f39def70-26d9-4b57-98d7-99bb0d1be507)
 
 번역
 
