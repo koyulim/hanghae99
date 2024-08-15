@@ -1,6 +1,8 @@
 # 99클럽 코테 스터디 24일차 TIL + Evaluate Division
 
 ### Evaluate Division
+![240815](https://github.com/user-attachments/assets/4ab092c5-f580-45f9-b97b-35565ce7babc)
+
 
 번역
 
@@ -17,18 +19,29 @@
 
 참고: 방정식 목록에 나타나지 않는 변수는 정의되어 있지 않으므로 이에 대한 답을 결정할 수 없습니다.
 
+#### 제약 조건
+
+![Constraints](https://github.com/user-attachments/assets/40043d44-6b7c-42bb-ae0c-607bf8abed7c)
+
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/e5a1635e-3ddc-45e2-9285-7ef83f38c8d2)
 
 #### 입출력 예시2
 
+![ex2](https://github.com/user-attachments/assets/f7699650-0cc1-4340-9501-841a961da954)
 
 #### 입출력 예시3
 
+![ex3](https://github.com/user-attachments/assets/db7b19e8-c6d7-4d85-b056-833298017c02)
 
 #### 문제 요지
+- 주어진 방정식과 값을 가지고 새로 주어진 쿼리 방정식의 계산한 결과를 반환
+- 값을 구할 수 없는 경우에는 -1 반환
 
 #### 알고리즘
+- 주어진 방정식과 방정식의 값을 이용하여 각 문자에 맞는 계산신 추출
+- 새로운 방정식을 가지고 위에서 구한 값으로 결과 추출
 
 
 
