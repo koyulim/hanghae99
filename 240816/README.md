@@ -9,7 +9,8 @@
 ![ex1](https://github.com/user-attachments/assets/bc62d001-400d-4820-8c10-90651631fcfc)
 
 #### 문제 요지
-- players 배열의 순서를 기억하고 있다가 callings 배열로 주어진 값에 해당하는 순서를 앞에 순서랑 변경
+- players 배열의 순서를 기억하고 있다가 callings 배열로 주어진 값을 추출
+- 추출한 값을 players 배열에서 찾아 앞에 있는 값과 순서 변경
 
 <br>
 #99클럽 #코딩테스트준비 #개발자취업 #항해99 #TIL
