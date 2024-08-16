@@ -1,4 +1,4 @@
-# 99클럽 코테 스터디 24일차 TIL + Evaluate Division
+# 99클럽 코테 스터디 25일차 TIL + Evaluate Division
 
 ### Evaluate Division
 
