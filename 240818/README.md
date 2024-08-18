@@ -2,18 +2,23 @@
 
 ### 괄호 회전하기
 
+![240818](https://github.com/user-attachments/assets/74d88fac-b7f6-4fa6-84e3-9e315f9bfeb3)
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/3c317783-b1b0-43be-90df-59181d3d16fc)
 
 #### 입출력 예시2
 
+![ex2](https://github.com/user-attachments/assets/44be684a-b0ec-4bdd-b0b1-450aa48e5e76)
 
 #### 입출력 예시3
 
+![ex3](https://github.com/user-attachments/assets/ed761016-8e19-4bd4-bdbd-74bd6d30db01)
 
 #### 입출력 예시4
 
+![ex4](https://github.com/user-attachments/assets/97feed9c-39a7-4d3d-a375-a7e311296f51)
 
 
 #### 문제 요지
