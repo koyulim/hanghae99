@@ -1,18 +1,26 @@
-## Getting Started
+# 99클럽 코테 스터디 29일차 TIL + Longest Increasing Subsequence
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Longest Increasing Subsequence
 
-## Folder Structure
+정수 배열 nums가 주어지면, 엄격하게 증가하는 가장 긴 길이를 반환합니다.
+하위 시퀀스는 나머지 요소의 순서를 변경하지 않고 일부 요소를 삭제하거나 요소를 전혀 삭제하지 않고 다른 배열에서 파생될 수 있는 배열입니다.
 
-The workspace contains two folders by default, where:
+#### 입출력 예시1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+가장 긴 증가 부분 수열은 [2,3,7,101]이므로 길이는 4입니다.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+#### 입출력 예시2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### 입출력 예시3
+
+
+
+
+#### 문제 요지
+- 
+
+
+<br>
+#99클럽 #코딩테스트준비 #개발자취업 #항해99 #TIL
