@@ -2,6 +2,9 @@
 
 ### Find Right Interval
 
+![240820](https://github.com/user-attachments/assets/dbdc3a58-7b19-4d9b-af9c-606f986c5b0d)
+
+![2408201](https://github.com/user-attachments/assets/f79695ad-0ad5-4a72-a5b2-9a56cf36f5f9)
 
 "오른쪽 간격 찾기"
 
@@ -28,11 +31,15 @@ i와 j가 같을 수도 있습니다.
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/c2801887-dbb7-4ccf-a06b-238915717865)
+
 - 입력: intervals = [[1,2]]
 - 출력: [-1]
 - 설명: 이 집합에는 하나의 간격만 존재하므로, -1을 출력합니다.
 
 #### 입출력 예시2
+
+![ex2](https://github.com/user-attachments/assets/5ee8115a-52d1-4cb9-9c3d-b1ffd1936e46)
 
 - 입력: intervals = [[3,4],[2,3],[1,2]]
 - 출력: [-1,0,1]
@@ -44,11 +51,14 @@ i와 j가 같을 수도 있습니다.
 
 #### 입출력 예시3
 
+![ex3](https://github.com/user-attachments/assets/64db05f0-6a18-47ae-815f-f3ec3f290d3c)
+
 - 입력: intervals = [[1,4],[2,3],[3,4]]
 - 출력: [-1,2,-1]
 - 설명:
     - [1,4]와 [3,4]에 대한 오른쪽 간격은 없습니다.
     - [2,3]의 오른쪽 간격은 [3,4]이며, start2 = 3이 end1 = 3보다 크거나 같은 가장 작은 시작값입니다.
+
 
 #### 문제 요지
 - 주어진 간격 배열에서 각 간격에 대해 "right interval"을 찾는 문제
