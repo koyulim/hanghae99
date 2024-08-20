@@ -46,7 +46,7 @@ O(n log(n)) 시간 복잡도에서 실행되는 알고리즘을 생각해 낼 �
 
     - left와 right를 설정한 후, while문을 통해 mid를 계산하여 이분 탐색을 진행
     - list[mid]가 target보다 작으면, left를 mid + 1로 이동
-    - list[mid]가 target보다 크거나 같으면, right를 mid - 1로 이동
+    - list[mid]가 target보다 크거나 같으면, right를 mid로 이동
     - left가 nums[i]가 삽입될 위치가 됨
 
 - 반복문이 종료되면 list의 크기가 최종적으로 가장 긴 증가하는 부분 수열의 길이가 됨
