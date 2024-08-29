@@ -32,6 +32,7 @@
 - 최종 피로도 계산
 
 ### 예시 데이터의 변화
+- 문제 예시 picks = [1, 3, 2], minerals = ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]
 - 광물 그룹화
 
   - minerals 배열을 5개의 광물씩 묶어서 그룹화
