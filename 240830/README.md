@@ -1,6 +1,10 @@
 # 99클럽 코테 스터디 40일차 TIL + Unique Paths
 ### Unique Paths
 
+![2408301](https://github.com/user-attachments/assets/7f218694-8e9d-4f52-9411-a92925f81a52)
+
+![2408302](https://github.com/user-attachments/assets/38091153-184e-4c18-853d-a6977aeef523)
+
 번역
 
 유일한 경로 (Unique Paths)
@@ -21,10 +25,14 @@
 
 #### 입출력 예시1
 
+![ex1](https://github.com/user-attachments/assets/ae31e6ce-0680-430d-8988-ee207015bb5f)
+
 - 입력: 𝑚 = 3, 𝑛 = 7
 - 출력: 28
 
 #### 입출력 예시2
+
+![ex2](https://github.com/user-attachments/assets/bfb2f5f6-a653-430b-a151-bc2227da5301)
 
 - 입력: 𝑚 = 3,  𝑛 = 2
 - 출력: 3
@@ -37,15 +45,59 @@
 <br>
 
 #### 문제 요지
-
+- 로봇이 m x n 크기의 그리드에서 오른쪽(Right)이나 아래쪽(Down)으로만 이동할 수 있음
+- 이때, 중복 경로를 제외한 유일한 경로의 수를 계산하는 것이 목표
+- 예를 들어, 로봇이 3 x 7 그리드에서 이동할 경우 총 28가지의 경로가 존재
+- 조합론(Combinatorics) 알고리즘 기법 사용
+- (m + n, m) 또는 (m + n, n) 계산법 사
   
 <br>
 
 
 ## 문제 구현 알고리즘
-
+- 입력 값 조정
+- 총 이동 횟수 계산
+- 조합 계산
+- 최종 결과 반환
 
 ### 예시 데이터의 변화
+- 입력 예시: m = 3, n = 7
+- 입력 값 조정:
+
+    - m과 n을 1 감소시켜서 계산의 편의성을 구축
+    - 이는 처음 위치를 (0, 0)으로 두고 이동을 세는 것이 아니라, 전체 이동 거리로 생각하기 위함
+
+          m--; // m = 2
+          n--; // n = 6
+
+- 총 이동 횟수 계산
+
+    - 로봇이 이동해야 하는 총 횟수는 Right 방향으로 n번, Down 방향으로 m번 이동
+
+          int totalSteps = m + n; // totalSteps = 2 + 6 = 8
+
+- 조합 계산
+
+    - 이 문제는 사실상 로봇이 총 8번 움직이는데, 그 중 m번은 Down을 선택하는 경우의 수를 구하는 조합 문제
+    - 조합의 식
+
+[ex3](https://github.com/user-attachments/assets/2174d554-e286-4395-b8a1-3b969968c4f8)
+    - 이를 최적화하여 계산합
+
+        int r = Math.min(m, n); // r = 2
+        long result = 1;
+
+        for (int i = 1; i <= r; i++) {
+            result = result * (totalSteps - i + 1) / i;
+        }
+-
+    - 이 경우, r = 2이므로, 계산 과정은 다음과 같습니다:
+    - 첫 번째 루프: result = 1 * (8 - 1 + 1) / 1 = 8
+    - 두 번째 루프: result = 8 * (8 - 2 + 1) / 2 = 28
+
+- 최종 결과 반환
+
+    - 계산된 result 값을 정수형으로 변환하여 반환합니다
 
 
 <br>
