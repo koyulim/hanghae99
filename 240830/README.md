@@ -49,7 +49,7 @@
 - 이때, 중복 경로를 제외한 유일한 경로의 수를 계산하는 것이 목표
 - 예를 들어, 로봇이 3 x 7 그리드에서 이동할 경우 총 28가지의 경로가 존재
 - 조합론(Combinatorics) 알고리즘 기법 사용
-- (m + n, m) 또는 (m + n, n) 계산법 사
+- (m + n, m) 또는 (m + n, n) 계산법 사용
   
 <br>
 
@@ -62,7 +62,7 @@
 
 ### 예시 데이터의 변화
 - 입력 예시: m = 3, n = 7
-- 입력 값 조정:
+- 입력 값 조정
 
     - m과 n을 1 감소시켜서 계산의 편의성을 구축
     - 이는 처음 위치를 (0, 0)으로 두고 이동을 세는 것이 아니라, 전체 이동 거리로 생각하기 위함
@@ -80,17 +80,16 @@
 
     - 이 문제는 사실상 로봇이 총 8번 움직이는데, 그 중 m번은 Down을 선택하는 경우의 수를 구하는 조합 문제
     - 조합의 식
-
-[ex3](https://github.com/user-attachments/assets/2174d554-e286-4395-b8a1-3b969968c4f8)
+    - ![ex3](https://github.com/user-attachments/assets/957a9cb2-a3d5-499f-ac8e-d4dd3f15f3a8)
     - 이를 최적화하여 계산합
 
-        int r = Math.min(m, n); // r = 2
-        long result = 1;
+          int r = Math.min(m, n); // r = 2
+          long result = 1;
 
-        for (int i = 1; i <= r; i++) {
-            result = result * (totalSteps - i + 1) / i;
-        }
--
+          for (int i = 1; i <= r; i++) {
+              result = result * (totalSteps - i + 1) / i;
+          }
+      
     - 이 경우, r = 2이므로, 계산 과정은 다음과 같습니다:
     - 첫 번째 루프: result = 1 * (8 - 1 + 1) / 1 = 8
     - 두 번째 루프: result = 8 * (8 - 2 + 1) / 2 = 28
